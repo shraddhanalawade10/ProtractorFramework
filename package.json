@@ -1,0 +1,30 @@
+{
+  "name": "practice123",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "node_modules/protractor/bin/protractor outputjs/conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.8.8"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "jasmine": "3.1.0",
+    "protractor": "~5.3.2",
+    "typescript": "~2.9.2",
+    "log4js": "3.0.1",
+    "cucumber": "6.0.5",
+    "@types/cucumber": "6.0.1",
+    "protractor-cucumber-framework": "6.2.1",
+    "cucumber-html-reporter": "5.1.0",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "mkdirp": "1.0.3"
+  },
+  "description": ""
+}
